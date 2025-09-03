@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
- <script>
-        // 检查 sessionStorage 中是否存在已验证的标志
-        if (sessionStorage.getItem('isAuthenticated') !== 'true') {
-            // 如果不存在，说明用户未经验证，立即跳转回密码输入页面
-            window.location.href = 'index.html';
-        }
-    </script>
+ 
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -5059,7 +5053,7 @@ input:checked + .slider:before {
 /* ▲▲▲ 新CSS粘贴结束 ▲▲▲ */
 
 #status-bar-time::after {
-    content: "JCY";
+    content: "☾★☆";
     color: var(--status-bar-text-color); /* <-- 应用变量 */
     font-size: 11px;
     font-weight: 500;
